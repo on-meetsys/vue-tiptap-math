@@ -1,0 +1,109 @@
+{
+  "name": "vue-tiptap-katex",
+  "version": "2.3.22",
+  "description": "tiptap editor with katex in vue",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint src"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@mdi/font": "^5.8.55",
+    "@tiptap/core": "^2.0.0-beta.174",
+    "@tiptap/starter-kit": "^2.0.0-beta.183",
+    "@tiptap/vue-2": "^2.0.0-beta.77",
+    "@xkeshi/image-compressor": "^0.5.3",
+    "core-js": "^3.6.5",
+    "css-loader": "^3.6.0",
+    "katex": "^0.15.2",
+    "mathlive": "^0.69.10",
+    "node-sass": "^6.0.0",
+    "postcss-loader": "^4.2.0",
+    "sass-loader": "^10.1.1",
+    "tiptap-extensions": "^1.35.2",
+    "vue": "^2.6.11",
+    "vuetify": "^2.5.3",
+    "webpack": "<=4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "^3.1.1",
+    "@vue/cli-plugin-unit-jest": "~4.5.15",
+    "@vue/cli-service": "^3.12.1",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^27.5.1",
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/strongly-recommended",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "vue/attributes-order": "warn",
+      "vue/this-in-template": "error",
+      "vue/arrow-spacing": "error",
+      "vue/block-spacing": "error",
+      "vue/comma-dangle": "error",
+      "vue/eqeqeq": "warn",
+      "vue/key-spacing": "error",
+      "vue/keyword-spacing": "error",
+      "vue/no-deprecated-scope-attribute": "warn",
+      "vue/no-deprecated-slot-attribute": "warn",
+      "vue/no-deprecated-slot-scope-attribute": "warn",
+      "vue/no-irregular-whitespace": "error",
+      "vue/no-reserved-component-names": "error",
+      "vue/valid-v-slot": "error",
+      "quotes": [
+        2,
+        "single"
+      ]
+    },
+    "overrides": [
+      {
+        "files": [
+          "**/__tests__/*.{j,t}s?(x)",
+          "**/tests/unit/**/*.spec.{j,t}s?(x)"
+        ],
+        "env": {
+          "jest": true
+        }
+      }
+    ]
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "contributors": [
+    {
+      "name": "Ali Esmaeeli",
+      "email": "aliesmaeeli20@gmail.com",
+      "url": "https://github.com/kerasus/vue-tiptap-katex"
+    },
+    {
+      "name": "Mostafa Kazemi",
+      "email": "neo.kazemi168@gmail.com",
+      "url": "https://github.com/neokazemi/vue-tiptap-katex"
+    }
+  ],
+  "homepage": "https://github.com/kerasus/vue-tiptap-katex",
+  "keywords": [
+    "vue",
+    "tiptap",
+    "katex",
+    "vue-tiptap-katex"
+  ],
+  "license": "MIT"
+}
